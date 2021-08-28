@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: helvetica;
+}
+
+.content-center {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  background-color: #fff;
+  margin: auto;
+
+}
+
+.content-center td {
+  padding: 0.75rem;
+  border-top: 1px solid #DEE2E6;
+}
+
+.content-center table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.90rem;
+}
+
+.content-center table tbody tr:nth-child(odd) {
+  background-color: rgba(0,0,0,.05);
+}
+
+.content-center table tbody tr:hover {
+  background-color: rgba(0,0,0,.18);
+  cursor: pointer;
+}
+
+#valorA {
+  width: 100%;
+  padding: 10px;
+}
